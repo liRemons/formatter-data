@@ -1,0 +1,26 @@
+{
+  "name": "formatter-data",
+  "version": "0.0.1-beta",
+  "description": "a plugin which can show time in chinese and english",
+  "main": "index.js",
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "webpack --mode development",
+      "build": "webpack --mode production"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/liRemons/formatter-data.git"
+  },
+  "Keywords": "formatter-data",
+  "author": "Remons",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2"
+  },
+  "keywords": []
+}
