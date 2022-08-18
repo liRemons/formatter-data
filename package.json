@@ -1,26 +1,25 @@
 {
   "name": "formatter-data",
-  "version": "0.0.1-beta",
-  "description": "a plugin which can show time in chinese and english",
-  "main": "index.js",
+  "version": "0.0.1-rc.1",
+  "description": "格式化数据方法",
+  "main": "dist/umd/index.min.js",
   "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "dev": "webpack --mode development",
-      "build": "webpack --mode production"
+    "build": "rollup -c"
   },
   "repository": {
-      "type": "git",
-      "url": "https://github.com/liRemons/formatter-data.git"
+    "type": "git",
+    "url": "https://github.com/liRemons/formatter-data.git"
   },
   "Keywords": "formatter-data",
   "author": "Remons",
   "license": "MIT",
-  "dependencies": {
-    "@babel/core": "^7.14.6",
-    "@babel/preset-env": "^7.14.7",
-    "babel-loader": "^8.2.2",
-    "webpack": "^5.44.0",
-    "webpack-cli": "^4.7.2"
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-terser": "^7.0.2"
   },
   "keywords": []
 }
